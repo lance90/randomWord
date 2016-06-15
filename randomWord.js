@@ -34,7 +34,7 @@ $(function () {
 	function getWordsArray() {
 		var array;
 		
-		//ajax() 方法通过 HTTP 请求加载远程数据。
+		//ajax() 方法通过 HTTP 请求加载远程数据。ajax 只能讀自己網站上同個網域的東西
 		$.ajax({
 			type: 'GET',   //設定請求的方式
 			url: 'words.html',   //設定發送請求的網址
