@@ -4,6 +4,7 @@ body {
     letter-spacing: 1px;
 	text-align: center;
     color: #274a6c;
+	height:100%
 	background: -webkit-linear-gradient(top , white, grey);
 }
 
